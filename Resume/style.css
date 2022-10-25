@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+   font-size: 16px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: normal;
+   color: #47470a;
+   background: #f1f1f1;
+}
+
+a {
+   color: #111;
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+a:active {
+   color: blue;
+}
+
+/* a:visited {
+   color: gray;
+} */
+
+.container {
+   max-width: 750px;
+   margin: auto;
+   padding-top: 30px;
+}
+
+.avatar {
+   width: 200px;
+   border-radius: 15px;
+   box-shadow: 6px 6px 14px #555553;
+}
+
+.info {
+   margin-bottom: 20px;
+   display: flex;
+}
+
+.info-text {
+   margin-left: 40px;
+}
+
+
+
+.info-text p {
+   font-style: italic;
+   font-weight: bold;
+   color: #66665a;
+   margin: 0;
+}
+
+.info-text h4 {
+   margin-bottom: 10px;
+}
+
+
+
+.info-text h1 {
+   color: #977aff;
+}
+
+
+@media (max-width: 700px) {
+   .info {
+      display: block;
+      text-align: center;
+   }
+}
+
+.card {
+   
+   border-radius: 10px;
+   padding: 15px 20px;
+   margin-bottom: 20px;
+}
+
+.card h2 {
+   margin-bottom: 10px;
+}
+
+.bg-green {
+   background: #aaf5aa;
+   padding-left: 10px;
+}
+
+.bg-red {
+background: #f8cbc6;
+padding-left: 10px;
+}
+
+.bg-blue {
+background: #d2dbf8;
+padding-left: 10px;
+}
+
+
+.btn {
+   background: #111;
+   color: #f1f1f1;
+   padding: 10px 15px;
+   border: none;
+   font-family: inherit;
+   cursor: pointer;
+}
+
+
+.btn:hover {
+   opacity: 0.8;
+}
+
+.list {
+   padding: 0 20px;
+}
+
+.list li {
+   color: #86899f;
+   margin-bottom: 5px;
+}
+
+.table {
+   width: 100%;
+   padding-left: 40px;
+}
+
+.table td {
+   padding-bottom: 5px;
+}
+
+.table td:nth-child(2), .table td:nth-child(3) {
+   color: #86899f;
+}
+
+
+.form h2 {
+   text-align: center;
+}
+
+.form-row {
+   margin-bottom: 10px;
+   display: flex;
+}
+
+.form-row .form-group {
+   /* display: inline-block; */
+   margin-right: 20px;
+   width: 50%;
+   /* width: calc(50% - 20px); */
+}
+
+.form-row .form-group:last-child {
+   margin-right: 0;
+}
+
+
+
+@media (max-width: 700px) {
+   .form-row {
+      margin-bottom: 10px;
+      display: block;
+   }
+
+   .form-row .form-group {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 10px;
+   }
+}
+
+.form-group label {
+   display: block;
+   font-size: 14px;
+   color: #86899f;
+}
+
+.form-group input, 
+.form-group textarea {
+   width: 100%;
+   box-sizing: border-box;
+   border: none;
+   background: transparent;
+   border-bottom: 1px solid #ccc;
+   color: #000;
+   padding: 15px 0 10px;
+   outline: none;
+   font-family: inherit;
+}
+
+
